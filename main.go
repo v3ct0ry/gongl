@@ -21,6 +21,7 @@ type NGLMessage struct {
 }
 
 func main() {
+	fmt.Print("\033]0;goNGL by V3CT0RY | @v3ct0ry\007")
 	clearConsole()
 	bPrint("Welcome!\n")
 
